@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(24, 11, 70);
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+ 
+}
+.content {
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6db3f2+16,54a3ee+46,3690f0+59,3690f0+59,3690f0+59,3690f0+59,3690f0+60,3690f0+60,3690f0+61,3690f0+61,1e69de+92,1e69de+92 */
+    background: rgb(109,179,242); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(109,179,242,1) 16%, rgba(84,163,238,1) 46%, rgba(54,144,240,1) 59%, rgba(54,144,240,1) 59%, rgba(54,144,240,1) 59%, rgba(54,144,240,1) 59%, rgba(54,144,240,1) 60%, rgba(54,144,240,1) 60%, rgba(54,144,240,1) 61%, rgba(54,144,240,1) 61%, rgba(30,105,222,1) 92%, rgba(30,105,222,1) 92%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(109,179,242,1) 16%,rgba(84,163,238,1) 46%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 60%,rgba(54,144,240,1) 60%,rgba(54,144,240,1) 61%,rgba(54,144,240,1) 61%,rgba(30,105,222,1) 92%,rgba(30,105,222,1) 92%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(109,179,242,1) 16%,rgba(84,163,238,1) 46%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 59%,rgba(54,144,240,1) 60%,rgba(54,144,240,1) 60%,rgba(54,144,240,1) 61%,rgba(54,144,240,1) 61%,rgba(30,105,222,1) 92%,rgba(30,105,222,1) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+    
+    box-shadow: 10px 10px 20px rgb(28, 13, 160);
+    border-radius: 15px;
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.MyPhoto {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 14px rgba(26, 12, 145);
+    float: left;
+    margin: 5px 30px 5px 5px
+}
+
+.MY_infor p {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+h1 {
+    font-size: 44px;
+}
+
+
+.faceinsta {
+    background-color: rgb(166, 202, 231);
+    display: flex;
+    padding: 50px 100px 50px 100px;
+    width: 150px;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px 5px 20px 5px;
+    padding:0;
+    background-color: rgb(100, 87, 218);
+    border: 1px solid rgb(7, 7, 7);
+    overflow: hidden;
+    border-radius:4px;
+  
+}
+
+li {
+    float: left;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+li:last-child {
+    border-right: none;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px 5px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px;
+
+}
+
+li a:hover {
+    background-color: rgb(57, 1, 90);
+    color: rgb(190, 204, 0);
+  }
+
+.active {
+    background-color: #293280;
+    color: rgb(255, 255, 255);
+  }
+
+
+span {
+    font-size: 22px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 38px;    
+}
+
+
+footer  {
+    text-align:center;
+    background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4557f7+0,4029d8+58,4a44ed+88,4a44ed+92,4a44ed+92,6361e2+100,2f21ff+100,6361e2+100&0.91+1,1+100 */
+    background: -moz-linear-gradient(top,  rgba(69,87,247,0.91) 0%, rgba(69,86,246,0.91) 1%, rgba(64,41,216,0.96) 58%, rgba(74,68,237,0.99) 88%, rgba(74,68,237,0.99) 92%, rgba(99,97,226,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(69,87,247,0.91) 0%,rgba(69,86,246,0.91) 1%,rgba(64,41,216,0.96) 58%,rgba(74,68,237,0.99) 88%,rgba(74,68,237,0.99) 92%,rgba(99,97,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(69,87,247,0.91) 0%,rgba(69,86,246,0.91) 1%,rgba(64,41,216,0.96) 58%,rgba(74,68,237,0.99) 88%,rgba(74,68,237,0.99) 92%,rgba(99,97,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e84557f7', endColorstr='#6361e2',GradientType=0 ); /* IE6-9 */
+    
+    
+    
+
+
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+
+.main_text { 
+    margin: 5px 5px 5px 5px;
+
+}
